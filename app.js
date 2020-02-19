@@ -1,5 +1,5 @@
 require('dotenv').config()
-
+require('./config/db');
 
 
 const createError = require('http-errors');
